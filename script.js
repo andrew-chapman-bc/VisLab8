@@ -9,7 +9,7 @@ d3.csv('driving.csv', d3.autoType).then(data=>{
 function makeScatter() {
 
     const outerWidth = 1000;
-    const outerHeight = 750;
+    const outerHeight = 680;
 
     const margin = {top:40, left:40, bottom:25, right:25};
     const width = outerWidth - margin.left - margin.right;
